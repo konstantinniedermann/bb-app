@@ -24,20 +24,6 @@ Form eines Eintrags:
 
 ## Offen
 
-### 2026-11-16 — Die Vorstandsseite auf badibeach.ch zeigt noch die alte Besetzung
-
-**Thema:** Website
-
-**Fundort:** badibeach.ch/vorstand
-
-**Beobachtung:** Die Seite führt das Ressort Kommunikation mit der früheren Besetzung, das neue
-Ressort Events fehlt.
-
-**Ursprung:** Initialisierung des Repos.
-
-**Einschätzung:** Kein Thema der App. Hinweis an die Kommunikation, wenn sie die Tabelle der
-Fragen bekommt.
-
 ### 2026-11-16 — Bei der tco-app fehlt eine Frage wie K-11 an den TCO-Vorstand
 
 **Thema:** Übernahme aus MyTCO
@@ -51,3 +37,18 @@ TCO-Vorstands. In den Abklärungen der tco-app gibt es dazu noch keine Frage.
 
 **Einschätzung:** In einer Session der tco-app als neue Frage aufnehmen, wenn Option C nach den
 Antworten von Badibeach noch im Rennen ist.
+
+### 2026-11-16 — Die Namensprüfung vor dem Push steht in ADR-001, aber nirgends als Regel oder Hook
+
+**Thema:** Öffentliches Repo
+
+**Fundort:** [ADR-001](adr/adr-001-repo-oeffentlich.md), Konsequenzen; `CLAUDE.md`
+
+**Beobachtung:** ADR-001 sagt, vor jedem Push werde nach Personennamen gesucht. Die Zeile in der
+`CLAUDE.md` wurde nach der Aufnahmeregel entfernt (Ablauf, keine Dauerregel). Ein Pre-Push-Hook
+oder ein Schritt im Wrap-up fehlt.
+
+**Ursprung:** Review der Initialisierung.
+
+**Einschätzung:** Ein kleiner Pre-Push-Hook mit einer Namensliste aus `intern/` wäre der robuste
+Weg; bis dahin hängt es an der Disziplin beim Push.

@@ -45,7 +45,7 @@ verändert; Vorschlag in den [Abklärungen](../abklaerungen.md#zurückgestellt))
 | A-OPENCOURT-02 | Interessierte Mitglieder melden sich an | DOK 2 | offen | K-16 |
 | A-OPENCOURT-03 | Übersicht über die angemeldeten Teilnehmenden | DOK 2 | erfasst | |
 | A-OPENCOURT-04 | Anzeige der Mindestzahl der Teilnehmenden | DOK 2 | offen | K-16 |
-| A-OPENCOURT-05 | Anzeige der verfügbaren Plätze | DOK 2 | erfasst | |
+| A-OPENCOURT-05 | Anzeige der verfügbaren Plätze | DOK 2 | offen | K-15 |
 
 ### FELD — Feldreservation und Feldfreigabe
 

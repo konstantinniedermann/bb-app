@@ -24,10 +24,10 @@ Namen.
   danach entsteht Code ([ADR-002](adr/adr-002-erst-klaeren-dann-bauen.md)).
   **Priorität 2:** gebraucht, bevor der betroffene Bereich gebaut wird.
 
-**Einsammeln:** wie bei MyTCO über eine Google-Tabelle im Drive des Projektleiters, ein Blatt pro
-Adressat, mit Auswahlliste und Freitext. Immer wählbar sind auch «Noch offen» und «Weiss ich
-nicht – bitte jemand anderen fragen». Diese Seite bleibt die Hauptliste. Welche Person im
-Verein welche Aufgabe hat, steht nur in der Tabelle, nicht im Repo.
+**Einsammeln (geplant, noch nicht angelegt):** wie bei MyTCO über eine Google-Tabelle im Drive
+des Projektleiters, ein Blatt pro Adressat, mit Auswahlliste und Freitext. Immer wählbar sind
+auch «Noch offen» und «Weiss ich nicht – bitte jemand anderen fragen». Diese Seite bleibt die
+Hauptliste. Welche Person im Verein welche Aufgabe hat, kommt nur in die Tabelle, nicht ins Repo.
 
 ## Priorität 1 — vor dem Entscheid über Übernahme und erste Etappe
 
@@ -50,6 +50,9 @@ Verein welche Aufgabe hat, steht nur in der Tabelle, nicht im Repo.
 | K-20 | Das Repo der App ist öffentlich auf GitHub, wie bei MyTCO: Anforderungen, diese Fragen und später der Code sind für alle sichtbar, aber nie Namen oder Daten von Mitgliedern. Ist der Vorstand einverstanden, dass dort auch das Anforderungsdokument im Wortlaut steht (als Abschrift, ohne Personennamen)? | Co-Präsidium | [ADR-001](adr/adr-001-repo-oeffentlich.md) |
 
 ## Priorität 2 — vor dem Bau des betroffenen Bereichs
+
+Diese Fragen gehen nicht in der ersten Runde hinaus. Sie werden gestellt, sobald K-01 die erste
+Etappe festlegt, und nur die zu den Bereichen dieser Etappe.
 
 | ID | Frage | An wen | Wozu |
 |----|-------|--------|------|
