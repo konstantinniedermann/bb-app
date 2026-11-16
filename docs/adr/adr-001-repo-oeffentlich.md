@@ -19,7 +19,8 @@ Frage schon entschieden ([ADR-010 der tco-app](https://github.com/konstantinnied
 
 ## Entscheidung
 
-**Das Repo ist öffentlich (B), Entscheid des Projektleiters.** Vertretbar, weil die
+**Das Repo ist öffentlich (B), Entscheid des Projektleiters; der Vorstand wird mit K-20
+gefragt.** Vertretbar, weil die
 Dauerverbote der `CLAUDE.md` echte Mitgliederdaten und Personennamen aus dem Repo fernhalten.
 
 ## Konsequenzen
@@ -31,5 +32,5 @@ Dauerverbote der `CLAUDE.md` echte Mitgliederdaten und Personennamen aus dem Rep
 
 ## Reevaluations-Trigger
 
-- Der Verein wünscht, dass Anforderungen oder Fragen nicht öffentlich sind.
+- Der Verein wünscht, dass Anforderungen oder Fragen nicht öffentlich sind (K-20).
 - Ins Repo müsste etwas Vertrauliches, das sich nicht nach `intern/` auslagern lässt.

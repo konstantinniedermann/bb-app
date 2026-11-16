@@ -17,15 +17,11 @@
   Ordner `intern/`.
 - Personen aus dem Verein werden in Doku, Commits und Issues mit ihrer Rolle benannt
   (Co-Präsidium, Kommunikation, Events, Turniere, Projektleiter), nie mit Namen.
-- Das Repo ist öffentlich: vor jedem Push `git grep` nach Namen aus `intern/` und aus dem
-  Gespräch.
 
 ## Fragen an den Verein
 
-- Neue Fragen kommen nach `docs/abklaerungen.md` (ID `K-NN`, Priorität, Adressat als Rolle).
-  Eine Frage gehört nur in Priorität 1 oder 2, wenn ihre Antwort Datenmodell, Login, Hosting,
-  Kosten oder den Umfang einer Etappe verändert; sonst unter *Zurückgestellt* mit Vorschlag.
-- Wer ohne Antwort weiterarbeitet, markiert die Annahme mit `Annahme K-NN:`.
+- Fragen an den Verein stehen nur in `docs/abklaerungen.md` (Aufbau und Prioritäten dort).
+  Wer ohne Antwort weiterarbeitet, markiert die Annahme mit `Annahme K-NN:`.
 
 ## Context-Scopes
 

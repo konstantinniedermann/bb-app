@@ -8,8 +8,8 @@
 
 Vieles aus dem [Anforderungsdokument](../anforderungen/2026-11-16-anforderungsdokument.md)
 gibt es in MyTCO, der App des Tennis-Club Olten, schon oder in ähnlicher Form: Login, Rollen,
-Mitgliederverwaltung, Austritt, Mitteilungen per Push, Anmeldung zu Anlässen und Turnieren,
-Partnersuche ([ADR-003](adr-003-verhaeltnis-zur-tco-app.md)). Ob und wie viel davon die
+Mitgliederverwaltung, Austritt, Mitteilungen per Push, Anmeldung zu Anlässen und Turnieren
+([ADR-003](adr-003-verhaeltnis-zur-tco-app.md)). Ob und wie viel davon die
 Badibeach-App übernimmt, hängt an Fragen an beide Vereine. Bei Badibeach sind das die
 [Abklärungen](../abklaerungen.md) der Priorität 1.
 

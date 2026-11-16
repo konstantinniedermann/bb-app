@@ -38,7 +38,7 @@ Ressort Events fehlt.
 **Einschätzung:** Kein Thema der App. Hinweis an die Kommunikation, wenn sie die Tabelle der
 Fragen bekommt.
 
-### 2026-11-16 — Bei der tco-app fehlt das Gegenstück zu K-11
+### 2026-11-16 — Bei der tco-app fehlt eine Frage wie K-11 an den TCO-Vorstand
 
 **Thema:** Übernahme aus MyTCO
 

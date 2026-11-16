@@ -16,7 +16,7 @@ setzt dieselbe Technik voraus.
 
 | Option | Dafür | Dagegen |
 |--------|-------|---------|
-| A: Technik von MyTCO übernehmen | Begründung und Erfahrung liegen vor; Voraussetzung für Kopie, Kern oder gemeinsame App; ein Projektleiter, ein Stack | Was bei MyTCO auf den TCO zugeschnitten ist, passt nicht automatisch (Brief, Hosting) |
+| A: Technik von MyTCO übernehmen | Begründung liegt vor, der Code ist gebaut und lokal nachgewiesen (Betriebserfahrung fehlt noch, MyTCO ist nicht live); Voraussetzung für Kopie, Kern oder gemeinsame App; ein Projektleiter, ein Stack | Was bei MyTCO auf den TCO zugeschnitten ist, passt nicht automatisch (Brief, Hosting) |
 | B: eigene Technik wählen | Freie Wahl | Schliesst die Übernahme aus MyTCO praktisch aus; zwei Stacks für einen ehrenamtlichen Projektleiter |
 
 ## Entscheidung (vorgeschlagen)

@@ -5,7 +5,8 @@
 Fragen an den Vorstand, deren Antwort die **erste Entwicklung** verändert: Datenmodell, Login,
 Hosting, Kosten, Umfang der ersten Etappe, Übernahme aus MyTCO. Detailfragen, die sich beim Bau
 eines Bereichs klären lassen, stehen unter [Zurückgestellt](#zurückgestellt).
-Ansprechpersonen sind das **Co-Präsidium** und die **Kommunikation**. Für Anlässe ist das Ressort
+Ansprechpersonen sind das **Co-Präsidium** und die **Kommunikation**; das Anforderungsdokument
+stammt vom Co-Präsidium. Für Anlässe ist das Ressort
 **Events** zuständig, für Turniere das Ressort **Turniere**. Fragen haben eine feste ID (`K-NN`),
 auf die Anforderungen und ADRs verweisen. Personen werden mit ihrer Rolle benannt, nicht mit
 Namen.
@@ -43,15 +44,16 @@ Verein welche Aufgabe hat, steht nur in der Tabelle, nicht im Repo.
 | K-09 | Wie viel darf die App pro Jahr höchstens kosten (Server, Mailversand; bei MyTCO geschätzt ca. CHF 95–175 pro Jahr)? Wer gibt die Kosten frei: Vorstand oder Budget der GV? | Vorstand | N-KOSTEN-01; Hosting, [ADR-003](adr/adr-003-verhaeltnis-zur-tco-app.md) |
 | K-10 | Domain und E-Mail: (K-10.1) Darf die App unter einer Adresse von badibeach.ch laufen (z. B. `app.badibeach.ch`; die DNS-Einträge liegen bei Hostpoint)? (K-10.2) Darf sie Mails von einer Adresse @badibeach.ch über das Google-Workspace-Konto des Vereins senden (Login-Codes, Benachrichtigungen)? (K-10.3) Wer verwaltet Hostpoint und Google Workspace? | Kommunikation | Hosting, Mailversand, Kosten; [ADR-004](adr/adr-004-technik-wie-tco-app.md) |
 | K-11 | Wäre der Vorstand einverstanden, wenn die App Code oder sogar Server mit MyTCO teilt, der App des Tennis-Club Olten? Die Daten der beiden Vereine blieben getrennt, die Kosten würden eventuell geteilt. Gibt es Bedenken, etwa zu Datenschutz oder Abhängigkeit von einem anderen Verein? | Vorstand | [ADR-003](adr/adr-003-verhaeltnis-zur-tco-app.md) |
-| K-12 | Austausch unter Mitgliedern: (K-12.1) Worüber tauschen sich die Mitglieder heute aus (z. B. WhatsApp-Gruppe), und soll die App das ersetzen? (K-12.2) Wenn alle Mitglieder Beiträge veröffentlichen und kommentieren können: Wer moderiert und löscht unpassende Beiträge? (K-12.3) Genügen Beiträge mit Kommentaren, oder braucht es getrennte Bereiche (z. B. Vorstand, Mitglieder, Themen)? | Kommunikation | A-AUSTAUSCH-01 bis -03; Umfang: ein Forum ist ein eigener grosser Bereich |
+| K-12 | Austausch unter Mitgliedern: (K-12.1) Worüber tauschen sich die Mitglieder heute aus (z. B. WhatsApp-Gruppe), und soll die App das ersetzen? (K-12.2) Sollen alle Mitglieder Beiträge veröffentlichen und kommentieren können, oder nur der Vorstand? Falls alle: Wer moderiert und löscht unpassende Beiträge? (K-12.3) Genügen Beiträge mit Kommentaren, oder braucht es getrennte Bereiche (z. B. Vorstand, Mitglieder, Themen)? | Kommunikation | A-AUSTAUSCH-01 bis -03; Umfang: ein Forum ist ein eigener grosser Bereich |
 | K-13 | Wie sollen sich Mitglieder kontaktieren, etwa auf eine Suchanfrage hin: (a) Nachrichten innerhalb der App (Chat), oder (b) Telefon oder E-Mail des anderen werden angezeigt, wenn er das im Profil erlaubt? Ein Chat ist deutlich aufwendiger und braucht mehr Datenschutz. | Kommunikation | A-SUCHE-03, A-PROFIL-06; Umfang, Datenschutz |
 | K-14 | Wer verwaltet was in der App? (K-14.1) Wer legt Clubturniere und Open-Court-Termine an? (K-14.2) Wer pflegt Mitglieder und Zugänge? (K-14.3) Wer teilt Felder zu oder korrigiert Reservationen? (K-14.4) Wer vergibt die Rollen? Reichen die Rollen Mitglied, Vorstand und Administration, oder braucht es pro Ressort eigene Rechte? | Vorstand | A-ROLLE-02, -03, A-TURNIER-01, A-OPENCOURT-01, A-FELD-02; Rollenmodell |
+| K-20 | Das Repo der App ist öffentlich auf GitHub, wie bei MyTCO: Anforderungen, diese Fragen und später der Code sind für alle sichtbar, aber nie Namen oder Daten von Mitgliedern. Ist der Vorstand einverstanden, dass dort auch das Anforderungsdokument im Wortlaut steht (als Abschrift, ohne Personennamen)? | Co-Präsidium | [ADR-001](adr/adr-001-repo-oeffentlich.md) |
 
 ## Priorität 2 — vor dem Bau des betroffenen Bereichs
 
 | ID | Frage | An wen | Wozu |
 |----|-------|--------|------|
-| K-15 | Clubturniere: (K-15.1) Meldet man sich einzeln oder als Team an, und wie gross ist ein Team (z. B. 2er, 4er)? (K-15.2) Gibt es eine Warteliste, wenn ein Turnier voll ist? | Turniere | A-TURNIER-02, -05, A-SUCHE-08 |
+| K-15 | Clubturniere: (K-15.1) Meldet man sich einzeln oder als Team an, und wie gross ist ein Team (z. B. 2er, 4er)? (K-15.2) Gibt es eine Warteliste, wenn ein Clubturnier oder ein Open Court voll ist? | Turniere, Events | A-TURNIER-02, -05, A-OPENCOURT-05, A-SUCHE-08 |
 | K-16 | Open Court: Was ist ein Open-Court-Termin genau (wer leitet, für wen, kostet er etwas)? Was passiert, wenn die Mindestzahl nicht erreicht ist (Absage, Frist, Benachrichtigung)? | Events, Turniere | A-OPENCOURT-01, -02, -04; [Glossar](glossar.md) |
 | K-17 | Feldfreigabe: (K-17.1) Bis wann muss ein Feld freigegeben werden? (K-17.2) Wer ein freigegebenes Feld will: Bekommt es, wer zuerst klickt? (K-17.3) Sollen Mitglieder benachrichtigt werden, wenn ein Feld frei wird (alle, nur Interessierte)? | Zuständige Person Feldreservation | A-FELD-05, -07 |
 | K-18 | Spielniveau: (K-18.1) Wie wird das Niveau beschrieben (z. B. Level 1–5, Einsteiger bis Lizenz)? (K-18.2) Legt es jedes Mitglied selbst fest, oder bestimmt es der Verein? | Turniere | A-PROFIL-03, A-SUCHE-02, -04 |
@@ -59,8 +61,9 @@ Verein welche Aufgabe hat, steht nur in der Tabelle, nicht im Repo.
 
 ## Zurückgestellt
 
-Die übrigen «Noch zu klärenden Anforderungen» aus dem Anforderungsdokument verändern die erste
-Entwicklung nicht. Sie werden geklärt, wenn ihr Bereich gebaut wird. Bis dahin gilt der Vorschlag.
+Jede «Noch zu klärende Anforderung» aus dem Anforderungsdokument steht hier. Entweder geht sie in
+einer Frage oben auf, oder sie verändert die erste Entwicklung nicht: Dann wird sie geklärt, wenn
+ihr Bereich gebaut wird, und bis dahin gilt der Vorschlag.
 
 | Frage im Dokument | Abschnitt | Wo sie geklärt wird / Vorschlag |
 |-------------------|-----------|---------------------------------|
@@ -78,11 +81,11 @@ Entwicklung nicht. Sie werden geklärt, wenn ihr Bereich gebaut wird. Bis dahin 
 | Suchanfragen für alle Mitglieder sichtbar? | DOK 4.4 | Vorschlag: ja, für alle eingeloggten Mitglieder, nie öffentlich |
 | Kontaktaufnahme per Chat, Direktnachricht oder Kontaktdaten? | DOK 4.4 | K-13 |
 | Suchanfragen verschwinden nach dem Spieltermin? | DOK 4.4 | Vorschlag: ja, automatisch am Tag danach |
-| Sollen alle Mitglieder Beiträge veröffentlichen können? | DOK 5 | K-12.2 |
-| Separate Bereiche für Vorstand und Mitglieder? | DOK 5 | K-12.3 |
-| Kommentarfunktion? | DOK 5 | K-12.2 |
-| Push-Benachrichtigungen für neue Beiträge? | DOK 5 | Vorschlag: Push für Mitteilungen des Vorstands, für Beiträge der Mitglieder einzeln abschaltbar |
-| Wichtige Informationen dauerhaft anpinnen? | DOK 5 | Vorschlag: ja, der Vorstand pinnt an (deckt A-INFO-05) |
+| Sollen alle Mitglieder Beiträge veröffentlichen können? | DOK 5.2 | K-12.2 |
+| Separate Bereiche für Vorstand und Mitglieder? | DOK 5.2 | K-12.3 |
+| Kommentarfunktion? | DOK 5.2 | K-12.2 |
+| Push-Benachrichtigungen für neue Beiträge? | DOK 5.2 | Vorschlag: Push für Mitteilungen des Vorstands, für Beiträge der Mitglieder einzeln abschaltbar |
+| Wichtige Informationen dauerhaft anpinnen? | DOK 5.2 | Vorschlag: ja, der Vorstand pinnt an (deckt A-INFO-05) |
 
 ## Beantwortet
 

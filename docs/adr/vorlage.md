@@ -2,7 +2,7 @@
 
 # ADR-NNN: Titel als Entscheidung formuliert
 
-**Status:** Vorgeschlagen | Entschieden | Ersetzt durch ADR-NNN · **Datum:** JJJJ-MM-TT
+**Status:** Offen | Vorgeschlagen | Entschieden | Ersetzt durch ADR-NNN · **Datum:** JJJJ-MM-TT
 
 ## Kontext
 
