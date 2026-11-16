@@ -24,8 +24,10 @@ Namen.
   danach entsteht Code ([ADR-002](adr/adr-002-erst-klaeren-dann-bauen.md)).
   **Priorität 2:** gebraucht, bevor der betroffene Bereich gebaut wird.
 
-**Einsammeln (geplant, noch nicht angelegt):** wie bei MyTCO über eine Google-Tabelle im Drive
-des Projektleiters, ein Blatt pro Adressat, mit Auswahlliste und Freitext. Immer wählbar sind
+**Einsammeln:** wie bei MyTCO über die Google-Tabelle *Badibeach-App – Fragen an den Vorstand*
+im Drive des Projektleiters. Blätter: Vorstand, Feldreservation & Helfer, Kommunikation, dazu
+*Wer ist wer* und *Beantwortet*. Runde 1 enthält nur die Fragen der Priorität 1, aufgeteilt in
+Unterfragen, mit Auswahlliste und Freitext. Immer wählbar sind
 auch «Noch offen» und «Weiss ich nicht – bitte jemand anderen fragen». Diese Seite bleibt die
 Hauptliste. Welche Person im Verein welche Aufgabe hat, kommt nur in die Tabelle, nicht ins Repo.
 
