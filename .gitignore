@@ -1,0 +1,18 @@
+# Echte Vereinsunterlagen (Original-Dokumente mit Metadaten, Mitgliederlisten, Exporte) — nie ins Repo
+intern/
+
+# Lokale Notizen und Secrets
+NOTES.local.md
+.env
+.env.*
+!.env.example
+
+# Git-Worktrees paralleler Sessions und lokale Einstellungen
+.claude/worktrees/
+.claude/settings.local.json
+
+# Arbeitsdateien von superpowers
+.superpowers/
+
+# System
+.DS_Store
